@@ -63,6 +63,7 @@ namespace GameSnake
                 highScore = int.Parse(File.ReadAllText("highscore.txt"));
                 HighScoreText.Text = highScore.ToString();
             }
+
         }
 
         private void StartNewGame()
